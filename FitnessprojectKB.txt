@@ -1,0 +1,61 @@
+Title: Fitness Buddy - Knowledge Base for AI Assistant
+
+Q: What is Fitness Buddy?
+A: Fitness Buddy is a virtual fitness assistant that provides home workouts, nutrition tips, motivation, and habit tracking using IBM Cloud and Watson AI services.
+
+Q: What features does Fitness Buddy offer?
+A:
+1. Home workout suggestions
+2. Personalized nutrition tips
+3. Daily motivation quotes and challenges
+4. Habit tracking and user consistency logs
+5. Natural chat-based interaction
+
+Q: What IBM Cloud services are used in Fitness Buddy?
+A:
+- IBM Watson Assistant for chatbot interaction
+- IBM Granity or Watson NLP for understanding user queries
+- IBM Cloud Functions for backend logic (workouts, meals)
+- IBM Cloudant to store user data
+- Optional: IBM AppID for user login
+
+Q: How does Fitness Buddy provide workout suggestions?
+A: Based on user input such as fitness level (beginner, intermediate), preference (cardio, strength, yoga), or time (10 min, 20 min), the assistant pulls from a list of pre-defined routines and returns a personalized workout plan.
+
+Q: How are nutrition tips generated?
+A: Nutrition suggestions are based on simple and healthy meal options categorized by goal (weight loss, muscle gain, balanced diet), and can include breakfast, lunch, dinner, and snack ideas.
+
+Q: What kind of motivational content is included?
+A: The assistant can provide:
+- Daily quotes
+- Short-term fitness challenges
+- Tips for staying motivated at home
+
+Q: Where is user progress or data stored?
+A: In IBM Cloudant, user-specific details like preferred workouts, past activity, or streaks can be stored to encourage habit consistency.
+
+Q: How does the assistant understand the user’s intent?
+A: Using IBM Watson Assistant and optionally Granity/NLU models, the assistant detects intents like:
+- get_workout
+- healthy_meal
+- motivate_me
+- track_progress
+- ask_nutrition
+
+Q: What are example user prompts that the assistant can respond to?
+A:
+- “I want to do a quick workout at home.”
+- “Suggest a healthy breakfast.”
+- “Motivate me to exercise.”
+- “Track my progress for this week.”
+- “Give me a vegetarian meal idea.”
+
+Q: Is an internet connection required to use Fitness Buddy?
+A: Yes, since it is hosted on IBM Cloud and relies on real-time interaction with cloud-based services, an internet connection is needed.
+
+Q: Can this assistant be embedded into a website?
+A: Yes, the Watson Assistant chat widget can be integrated into a basic HTML or React-based website to make the assistant accessible to users.
+
+Q: Who is the target user of Fitness Buddy?
+A: Anyone looking for a free, accessible, personalized fitness companion, especially beginners or people who prefer home workouts without a gym subscription.
+
